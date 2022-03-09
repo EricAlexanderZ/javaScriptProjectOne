@@ -1,0 +1,27 @@
+/* ID SELECTORS */
+#form_el {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#count_el {
+  font-size: 32px;
+  margin-top: 0;
+}
+#increment_btn {
+  margin-bottom: 10px;
+}
+
+/* THESE CLASSES CAN BE ASSIGNED TO ANY TAG */
+.textCenter {
+  align-self: center;
+}
+.forBtns {
+  width: 100%;
+  max-width: 180px;
+  height: 30px;
+  margin: auto;
+}
