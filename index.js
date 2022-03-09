@@ -19,7 +19,8 @@ function addOne() {
 document.getElementById("increment_btn").addEventListener("click", addOne);
 
 function save() {
-    logPara.textContent += `${count} - `;
+    let paraStrg = `${count} - `;
+    logPara.textContent += paraStrg;
     let reset = 0
     countEl.textContent = reset;
 }
